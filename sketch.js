@@ -148,9 +148,9 @@ function draw(){
   }
   
   fill("black")
-  text(placarTrex.toString().padStart(5,0), width*0.9,25)
+  text(placarTrex.toString().padStart(5,0), width-100,25)
   
-  text(placarMax.toString().padStart(5,0), width*0.83,25)
+  text(placarMax.toString().padStart(5,0), width-150,25)
   
   
   
